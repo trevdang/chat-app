@@ -3,10 +3,10 @@
 ## Chat App made using HTML, CSS, and JavaScript using technologies such as MongoDB and ExpressJS
 
 ** MAIN PAGE **
-![chatapp_mainpage.png](../README_assets/chatapp_mainpage.png?raw=true "Main Page")
+![](../README_assets/chatapp_mainpage.png)
 
 ** CHAT PAGE **
-![chatapp_chatpage.png](../README_assets/chatapp_chatpage.png?raw=true "Chat Page")
+![](../README_assets/chatapp_chatpage.png)
 
 ** PROFILE PAGE **
-![chatapp_profilepage.png](../README_assets/chatapp_profilepage.png?raw=true "Profile Page")
+![](../README_assets/chatapp_profilepage.png)
