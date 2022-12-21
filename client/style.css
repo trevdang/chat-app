@@ -1,0 +1,211 @@
+/* Dynamic Screen Resizing */
+@media (min-width: 1024px) {
+    #app-view {
+        width: 80%;
+        margin: auto;
+        outline-width: 2px;
+        outline-style: solid;
+        outline-color: gray;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    #app-view {
+        width: 90%;
+        margin: auto;
+        outline-width: 2px;
+        outline-style: solid;
+        outline-color: gray;
+    }
+}
+
+@media (max-width: 768px) {
+    #app-view {
+        width: 100%;
+        margin: auto;
+        outline-width: 2px;
+        outline-style: solid;
+        outline-color: gray;
+    }
+}
+
+/* Chat Message Styling */
+.room-name {
+    margin: auto;
+    padding-left: 30px;
+    outline-width: 1px;
+    outline-color: grey;
+    outline-style: solid;
+}
+
+.message {
+    width: 75%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: 0;
+    outline-width: 1px;
+    outline-color: grey;
+    outline-style: solid;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    word-wrap: break-word;
+}
+
+.my-message {
+    width: 75%;
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: 0;
+    outline-width: 1px;
+    outline-color: grey;
+    outline-style: solid;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    word-wrap: break-word;
+}
+
+.message-user {
+    font-size: 20px;
+    font-weight:bold;
+    padding-bottom: 5px;
+}
+
+.message-list {
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+/* App Tabbing Styling */
+#app-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50px;
+    list-style-type: none;
+    padding: 0;
+}
+
+#app-menu .menu-item {
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+#app-menu .menu-item a {
+    text-decoration: none;
+    padding-top: 7.5px;
+    font-size: 20px;
+}
+
+#app-menu img {
+    padding-top: 7.5px;
+    height: 25px;
+    width: 25px;
+}
+
+#app-menu .menu-item:hover {
+    background-color: lightblue;
+}
+
+.menu-item:hover a {
+    color: darkkhaki;
+}
+
+/* Page View Styling */
+
+/* Room List Styling */
+.room-list {
+    overflow-y: auto;
+    position: relative;
+    height: 500px;
+    max-height: 500px;
+    list-style-type: none;
+    padding: 0;
+    background-color: lightgrey;
+}
+
+.room-list a:link {
+    text-decoration: none;
+}
+
+.room-list li {
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    outline-width: 1px;
+    outline-color: grey;
+    outline-style: solid;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.room-list li:hover {
+    background-color: lightblue;
+}
+
+.room-list li img {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+/* Page Control Styling */
+.page-control {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    background-color: darkcyan;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Profile Page Styling */
+.profile-form .form-field {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline-width: 1px;
+    outline-color: grey;
+    outline-style: solid;
+}
+
+/* Div Drawing */
+div {
+    outline-width: 0px;
+    outline-style: dashed;
+    outline-color: green;
+}
+
+body {
+    width: 100%;
+    outline-width: 0px;
+    outline-style: solid;
+    outline-color: blue;
+}
